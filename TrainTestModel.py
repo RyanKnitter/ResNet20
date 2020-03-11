@@ -95,14 +95,3 @@ print('Accuracy of the network on the 10000 test images: %d %%' % (
 
 # Save the model parameters
 # torch.save(net.state_dict(), "ResNet20Parms.pt")
-
-# Load saved model parameters
-#model = ResNet()
-#model.load_state_dict(torch.load("ResNet20Parms.pt"))
-#model.eval()
-
-#model.to(device)
-
-# get some random training images
-#dataiter = iter(trainloader)
-#images, labels = dataiter.next()
